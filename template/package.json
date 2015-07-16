@@ -1,0 +1,11 @@
+{
+  "name": "<%= appNameSlug %>",
+  "version": "<%= appVersion %>",
+  "description": "<%= appDescription %>",
+  "main": "app/index.html",
+  "author": "<%= appAuthor %>",
+  "devDependencies": {
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0"
+  }
+}
