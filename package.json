@@ -24,6 +24,12 @@
   "homepage": "https://github.com/damasio34/slush-gulp-broswer-sync",
   "devDependencies": {
     "browser-sync": "^2.7.13",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0"    
+    "gulp-conflict": "^0.4.0",
+    "gulp-install": "^0.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-template": "^3.0.0",
+    "inquirer": "^0.8.5",
+    "underscore.string": "^3.1.1"
   }
 }
