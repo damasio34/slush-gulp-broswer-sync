@@ -31,11 +31,12 @@ gulp.task('default', function(done) {
 	    {
 	        name: 'appVersion',
 	        message: 'Qual a versão?',
-	        default: '1.0.0'
+	        default: '0.0.1'
 	    }, 
 	    {
 	        name: 'appAuthor',
 	        message: 'Nome do autor?'
+			default: 'Darlan Damasio <darlan@damasio34.com>'
 	    }
     ];
 
