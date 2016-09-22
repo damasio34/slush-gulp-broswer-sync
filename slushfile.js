@@ -1,6 +1,6 @@
  /**
  * slush-gulp-broswer-sync
- * @version v1.1.0 - 2016-09-22 * @link https://github.com/damasio34/slush-gulp-broswer-sync
+ * @version v1.1.1 - 2016-09-22 * @link https://github.com/damasio34/slush-gulp-broswer-sync
  * @author Darlan Damasio <darlan@damasio34.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
