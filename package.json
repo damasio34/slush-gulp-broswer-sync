@@ -1,6 +1,6 @@
 {
   "name": "slush-gulp-broswer-sync",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "slush generator de um simples projeto com slush e broswer-sync",
   "main": "app/index.html",
   "scripts": {

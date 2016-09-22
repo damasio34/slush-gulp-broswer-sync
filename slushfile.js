@@ -35,7 +35,7 @@ gulp.task('default', function(done) {
 	    }, 
 	    {
 	        name: 'appAuthor',
-	        message: 'Nome do autor?'
+	        message: 'Nome do autor?',
 			default: 'Darlan Damasio <darlan@damasio34.com>'
 	    }
     ];
