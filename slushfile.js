@@ -1,9 +1,8 @@
-/*
+ /**
  * slush-gulp-broswer-sync
- * https://github.com/damasio34/slush-gulp-broswer-sync
- *
- * Copyright (c) 2015, Darlan Damasio
- * Licensed under the MIT license.
+ * @version v1.0.2 - 2016-09-22 * @link https://github.com/damasio34/slush-gulp-broswer-sync
+ * @author Darlan Damasio <darlan@damasio34.com>
+ * @license MIT License, http://www.opensource.org/licenses/MIT
  */
 
 'use strict';
@@ -23,16 +22,16 @@ gulp.task('default', function(done) {
     	{
 	        name: 'appName',
 	        message: 'Qual o nome do projeto?'
-	    }, 
+	    },
 	    {
 	    	name: 'appDescription',
 	        message: 'Qual a descrição do projeto?'
-	    }, 
+	    },
 	    {
 	        name: 'appVersion',
 	        message: 'Qual a versão?',
 	        default: '0.0.1'
-	    }, 
+	    },
 	    {
 	        name: 'appAuthor',
 	        message: 'Nome do autor?',
@@ -47,7 +46,7 @@ gulp.task('default', function(done) {
                 return done();
             }
             answers.appNameSlug = _.slugify(answers.appName)
-            
+
             gulp.src(__dirname + '/template/**')
                 .pipe(template(answers))
                 .pipe(rename(function(file) {
