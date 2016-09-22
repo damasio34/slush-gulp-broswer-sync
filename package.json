@@ -2,7 +2,7 @@
   "name": "slush-gulp-broswer-sync",
   "version": "1.1.0",
   "description": "slush generator de um simples projeto com slush e broswer-sync",
-  "main": "app/index.html",
+  "main": "slushfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
