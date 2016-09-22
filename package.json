@@ -1,6 +1,6 @@
 {
   "name": "slush-gulp-broswer-sync",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "slush generator de um simples projeto com slush e broswer-sync",
   "main": "slushfile.js",
   "scripts": {
@@ -10,13 +10,26 @@
     "type": "git",
     "url": "https://github.com/damasio34/slush-gulp-broswer-sync.git"
   },
+  "files": [
+    "slushfile.js",
+    "templates"
+  ],
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
   "keywords": [
     "slushgenerator",
     "slush",
     "gulp",
-    "boswer-sync"
+    "boswer-sync",
+    "generator"
   ],
-  "author": "Darlan Damasio <darlan@damasio34.com>",
+  "author": {
+    "name": "Darlan Damasio",
+    "email": "darlan@damasio34.com",
+    "url": "http://damasio34.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/damasio34/slush-gulp-broswer-sync/issues"
