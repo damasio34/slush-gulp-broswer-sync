@@ -17,13 +17,12 @@
     "boswer-sync"
   ],
   "author": "Darlan Damasio <darlan@damasio34.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/damasio34/slush-gulp-broswer-sync/issues"
   },
   "homepage": "https://github.com/damasio34/slush-gulp-broswer-sync",
   "devDependencies": {
-    "browser-sync": "^2.7.13",
     "gulp": "^3.9.0",
     "gulp-conflict": "^0.4.0",
     "gulp-install": "^0.4.0",
